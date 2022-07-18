@@ -18,7 +18,7 @@ David.
 
 
 # HOW TO RUN
-After pulling the files into a system with jdk installed.
+After pulling the files into a system with jdk installed and added to enviromental path.
 
 Since the class files are present, simple run:
 java <file-name> in a terminal like command prompt
