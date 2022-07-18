@@ -14,4 +14,7 @@ Have a wonderful week.
 
 Sincerely,
 
-David
+David.
+
+
+#HOW TO RUN ALGORITHMS
