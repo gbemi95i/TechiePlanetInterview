@@ -20,9 +20,10 @@ David.
 # HOW TO RUN
 After pulling the files into a system with jdk installed and added to enviromental path.
 
-Since the class files are present, simple run:
+(Since the class files are present) simply run:
 java <file-name> in a terminal like command prompt
-Example: java AlgorithmQ4.java
+Example: java AlgorithmQ4
 
 If you need to compile:
 javac <file-name>.java
+Example: javac AlgorithmQ4.java
