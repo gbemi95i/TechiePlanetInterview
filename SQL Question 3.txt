@@ -1,0 +1,21 @@
+The SQL Join statement is used to link two or more tables together based on certain similarities.
+
+
+The left join is used to link two tables such that if there is a record on the left table (the first table mentioned) with no corresponding record on the right table, it would still show the left table's record and display null for the corresponding right table cell.
+
+Therefore the left join links tables with similarities but makes the left table's cell a priority.
+
+
+The right join is the opposite of the leftjoin statement since it is used to link two tables such that if there is a record on the right table (the second table mentioned) with no corresponding record on the left table, it would still show the right table's record and display null for the corresponding left table cell.
+
+Therefore the right join links tables with similarities but makes the right table's cell the priority.
+
+
+EXAMPLE USING PROVIDED TABLES:
+SELECT games.yr, city.country from games LEFT JOIN ON games.city=city.name;
+
+The above statement will return a table of the game years and return their corresponding country EXCEPT for 2032 where the country returned would NULL since the link doesn't exist.
+
+SELECT games.yr, city.country from games RIGHT JOIN ON games.city=city.name;
+
+The above statement will return a table of the countries and return their corresponding year EXCEPT for Australia where the year returned would be NULL since the link doesn't exist.

@@ -1,0 +1,1 @@
+SELECT games.yr city.country FROM games INNER JOIN city ON games.city=city.name;
