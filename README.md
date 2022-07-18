@@ -17,4 +17,12 @@ Sincerely,
 David.
 
 
-#HOW TO RUN ALGORITHMS
+# HOW TO RUN
+After pulling the files into a system with jdk installed.
+
+Since the class files are present, simple run:
+java <file-name> in a terminal like command prompt
+Example: java AlgorithmQ4.java
+
+If you need to compile:
+javac <file-name>.java
